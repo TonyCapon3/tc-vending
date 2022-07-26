@@ -37,40 +37,9 @@ RegisterNetEvent('tc-vending-buyDrink', function(args)
     local label = Config.Shop[current].drinkLabel
     local PlayerData = QBCore.Functions.GetPlayerData()
     TriggerServerEvent('tc-vending-chargeDrink', drink, cash, label)
-
-
-    -- if PlayerData.money['cash'] >= cash then
-    --     TaskStartScenarioInPlace(ped, "PROP_HUMAN_ATM", 0, true)
-    --     QBCore.Functions.Progressbar('buy_drink', 'Inserting Cash Into Vending Machine', 5000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
-    --         disableMovement = true,
-    --         disableCarMovement = true,
-    --         disableMouse = false,
-    --         disableCombat = true,
-    --     }, {}, {}, function() -- Play When Done
-    --         TriggerServerEvent('tc-vending-chargeDrink', drink, cash, label)
-    --         ClearPedTasksImmediately(ped)
-    --     end, function() -- Play When Cancel
-    --         ClearPedTasksImmediately(ped)
-    --     end)
-    -- else
-    --     TriggerServerEvent('tc-vending-chargeDrink', drink, cash, label)
-    -- end
 end)
 
 
--- RegisterNetEvent('tc-vending-progbar', function()
---     TaskStartScenarioInPlace(ped, "PROP_HUMAN_ATM", 0, true)
---         QBCore.Functions.Progressbar('buy_drink', 'Inserting Cash', 5000, false, true, { -- Name | Label | Time | useWhileDead | canCancel
---             disableMovement = true,
---             disableCarMovement = true,
---             disableMouse = false,
---             disableCombat = true,
---         }, {}, {}, function() -- Play When Done
---             ClearPedTasksImmediately(ped)
---         end, function() -- Play When Cancel
---             ClearPedTasksImmediately(ped)
---         end)
--- end)
 
 CreateThread(function()
     exports['qb-target']:AddTargetModel(Config.Machines, {
