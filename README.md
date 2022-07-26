@@ -24,4 +24,5 @@ https://github.com/qbcore-framework/qb-menu
 	['fanta'] 				 	 	 = {['name'] = 'fanta', 			  	  		['label'] = 'Fanta', 					['weight'] = 500, 		['type'] = 'item', 		['image'] = 'fanta.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Just carbonated OJ pretty much'},`
 
 
-
+# Credits 
+https://github.com/jimathy/jim-shops for the idea on menu-based shop
