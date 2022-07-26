@@ -6,6 +6,11 @@ Vending Machine Script For Drinks QBCORE!
 # INSTALLATION
 - Paste Photos From 'inv imgs' into your inventory's image source
 
+# DEPENDENCIES
+https://github.com/qbcore-framework/qb-core
+https://github.com/qbcore-framework/qb-target
+https://github.com/qbcore-framework/qb-menu
+
 - Paste This Into qb-core/shared/items.lua
 
 `['prime'] 				 	 	 = {['name'] = 'prime', 			  	  		['label'] = 'Prime', 					['weight'] = 500, 		['type'] = 'item', 		['image'] = 'prime.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Shouts ksi and lp'},
@@ -17,7 +22,4 @@ Vending Machine Script For Drinks QBCORE!
 	['fanta'] 				 	 	 = {['name'] = 'fanta', 			  	  		['label'] = 'Fanta', 					['weight'] = 500, 		['type'] = 'item', 		['image'] = 'fanta.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Just carbonated OJ pretty much'},`
 
 
-# DEPENDENCIES
-https://github.com/qbcore-framework/qb-core
-https://github.com/qbcore-framework/qb-target
-https://github.com/qbcore-framework/qb-menu
+
