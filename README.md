@@ -2,6 +2,7 @@
 Vending Machine Script For Drinks QBCORE!
 
 # PREVIEW
+https://medal.tv/games/gta-v/clips/tXRiXL0gllxVB/d133703EeESq?invite=cr-MSxyV1MsNDIxNDM3MTcs
 
 # INSTALLATION
 - Paste Photos From 'inv imgs' into your inventory's image source
