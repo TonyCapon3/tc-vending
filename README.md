@@ -27,4 +27,5 @@ https://github.com/qbcore-framework/qb-menu
 
 # Credits 
 https://github.com/jimathy/jim-shops for the idea on menu-based shop
+
 Also had some help from mt
