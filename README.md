@@ -8,7 +8,9 @@ Vending Machine Script For Drinks QBCORE!
 
 # DEPENDENCIES
 https://github.com/qbcore-framework/qb-core
+
 https://github.com/qbcore-framework/qb-target
+
 https://github.com/qbcore-framework/qb-menu
 
 - Paste This Into qb-core/shared/items.lua
