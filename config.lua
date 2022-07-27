@@ -1,6 +1,6 @@
 Config = {}
 
-Config.InvPath = "<img src=nui://lj-inventory/html/images/"
+Config.InvPath = "<img src=nui://qb-inventory/html/images/"
 
 Config.Shop = {
     ['water_bottle'] = {
